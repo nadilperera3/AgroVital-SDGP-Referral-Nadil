@@ -1,0 +1,62 @@
+{
+    "model_version": "1.0.0",
+    "input_features": [
+        "pH",
+        "moisture",
+        "nitrogen_ppm",
+        "phosphorus_ppm",
+        "potassium_ppm"
+    ],
+    "output_targets": [
+        "nitrogen_fertilizer_kg_ha",
+        "phosphorus_fertilizer_kg_ha",
+        "potassium_fertilizer_kg_ha",
+        "lime_application_kg_ha",
+        "irrigation_needed_mm"
+    ],
+    "numeric_features": [
+        "pH",
+        "moisture",
+        "nitrogen_ppm",
+        "phosphorus_ppm",
+        "potassium_ppm"
+    ],
+    "performance_metrics": {
+        "mae": {
+            "nitrogen_fertilizer_kg_ha": 6.256457744088033,
+            "phosphorus_fertilizer_kg_ha": 0.5429127595610344,
+            "potassium_fertilizer_kg_ha": 2.426792692781484,
+            "lime_application_kg_ha": 4.231224988434581,
+            "irrigation_needed_mm": 0.6369497148251835
+        },
+        "r2": {
+            "nitrogen_fertilizer_kg_ha": 0.9638778527711704,
+            "phosphorus_fertilizer_kg_ha": 0.9743624723188657,
+            "potassium_fertilizer_kg_ha": 0.9696909326562262,
+            "lime_application_kg_ha": 0.9718419587051346,
+            "irrigation_needed_mm": 0.9385142127613484
+        }
+    },
+    "optimal_ranges": {
+        "pH": [
+            4.5,
+            5.5
+        ],
+        "moisture": [
+            60,
+            80
+        ],
+        "nitrogen_ppm": [
+            150,
+            250
+        ],
+        "phosphorus_ppm": [
+            15,
+            35
+        ],
+        "potassium_ppm": [
+            80,
+            140
+        ]
+    }
+}

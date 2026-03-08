@@ -1,0 +1,7 @@
+Backend_AgroVital/flask-api/models/binary_model.h5
+Backend_AgroVital/flask-api/models/disease_model.h5
+Frontend_AgroVital/.env
+Backend_AgroVital/node-backend/config/firebaseConfig.js
+Backend_AgroVital/node-backend/firebase-adminsdk.json
+Backend_AgroVital/node-backend/.env
+Frontend_AgroVital/Components/firebaseConfig.js

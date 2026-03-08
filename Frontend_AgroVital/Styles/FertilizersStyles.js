@@ -1,0 +1,116 @@
+import { StyleSheet } from 'react-native';
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: 'rgba(238, 253, 240, 0.4)',
+    },
+    backgroundImage: {
+        flex: 1,
+        resizeMode: 'cover',
+    },
+    overlays: {
+        position: 'absolute',
+        width: '100%',
+        height: '100%',
+        backgroundColor: 'rgba(238, 253, 240, 0.82)',
+    },
+    header: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        padding: 16,
+        width: '100%',
+        backgroundColor: '#C2E7B0',
+        padding: 20,
+        elevation: 3,
+        marginBottom: 10,
+    },
+    title: {
+        fontSize: 20,
+        fontWeight: '600',
+        marginLeft: '18%',
+        color: '#333',
+        marginTop: '8%',
+        marginLeft: '18%',
+    },
+    backArrowContainer: {
+        position: 'absolute',
+        top: 40,
+        left: 22,
+        zIndex: 10,
+        width: 40,
+        height: 40,
+        borderRadius: 20,
+        justifyContent: 'center',
+        alignItems: 'center',
+        borderWidth: 2,
+        borderColor: '#000',
+    },
+    backButton: {
+        fontSize: 24,
+        color: 'black',
+        fontWeight: 'bold',
+        textAlign: 'center',
+        lineHeight: 24,
+    },
+
+    searchContainer: {
+        width: '90%',
+        backgroundColor: 'rgba(241, 252, 241, 0.7)',
+        borderWidth: 1.5,
+        borderColor: 'rgb(0, 60, 22)',
+        borderRadius: 25,
+        marginHorizontal: 20,
+        marginBottom: 9,
+        paddingHorizontal: 10,
+        alignSelf: 'center',
+    },
+    searchInput: {
+        height: 40,
+        fontSize: 16,
+        padding: 10,
+        color: '#333',
+    },  
+  
+    tile: {
+        padding: 10,
+        backgroundColor: 'rgb(238, 248, 229)',
+        borderRadius: 20,
+        borderColor:'rgb(0, 60, 22)',
+        borderWidth: 2,
+        marginLeft: 19,
+        marginRight: 4,
+        marginTop: 10,
+        marginBottom: 10, 
+        alignItems: 'center',
+        justifyContent: 'center', 
+        width: 160,
+        height: 255, 
+        overflow: 'hidden',
+    },
+    tileImage: {
+        width: 160,
+        height: 140,
+        resizeMode: 'stretch',
+    },
+    itemName: {
+        fontSize: 15,
+        fontWeight: 'bold',
+        color: '#333',
+        marginTop: 8,
+        textAlign: 'center',
+    },
+    locationText: {
+        fontSize: 14,
+        color: '#666',
+        textAlign: 'center',
+    },
+    ratingText: {
+        fontSize: 14,
+        color: '#FFD700',
+        textAlign: 'center',
+    },
+});
+
+export default styles;

@@ -1,0 +1,162 @@
+import { StyleSheet } from 'react-native';
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: 'rgba(238, 253, 240, 0.4)',
+  },
+  backgroundImage: {
+    flex: 1,
+    resizeMode: 'cover',
+  },
+  overlay: {
+    position: 'absolute',
+    width: '100%',
+    height: '100%',
+    backgroundColor: 'rgba(238, 253, 240, 0.82)',
+  },
+  header: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    padding: 16,
+    width: '100%',
+    backgroundColor: '#C2E7B0',
+    padding: 20,
+    elevation: 3,
+    marginBottom: 10,
+  },
+  backArrowContainer: {
+    position: 'absolute',
+    top: 40,
+    left: 22,
+    zIndex: 10,
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderWidth: 2,
+    borderColor: '#000',
+  },
+  backButton: {
+    fontSize: 24,
+    color: 'black',
+    fontWeight: 'bold',
+    textAlign: 'center',
+    lineHeight: 24,
+  },
+  title: {
+    fontSize: 20,
+    fontWeight: '600',
+    color: '#333',
+    marginTop: '8%',
+    marginLeft: '18%',
+  },
+  scrollContainer: {
+    flexGrow: 1,
+    paddingBottom: 20,
+  },
+  equipmentImage: {
+    width: '100%',
+    height: 300,
+    alignSelf: 'center',
+    marginBottom: 20,
+  },
+  detailsContainer: {
+    padding: 10,
+    borderRadius: 15,
+    borderWidth: 1.8,
+    borderColor: 'rgb(0, 60, 22)',
+    backgroundColor: 'rgb(238, 248, 229)',
+    margin: 10,
+  },
+  equipmentName: {
+    fontSize: 22,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    marginBottom: 10,
+  },
+  manufacturer: {
+    fontSize: 16,
+    marginBottom: 10,
+  },
+  price: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    marginBottom: 20,
+  },
+  specification: {
+    fontSize: 16,
+    marginBottom: 20,
+  },
+  availableShopsTitle: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#333',
+    marginTop: 15,
+    marginBottom: 15,
+  },
+  shopContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    padding: 5,
+    borderRadius: 15,
+    borderWidth: 1.8,
+    borderColor: 'rgb(0, 60, 22)',
+    backgroundColor: 'rgb(248, 253, 244)',
+    marginBottom: 15,
+    elevation: 2,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.2,
+    shadowRadius: 3,
+  },
+  shopImage: {
+    width: 80,
+    height: 80,
+    borderRadius: 10,
+    marginRight: 10,
+  },
+  shopInfo: {
+    flex: 1,
+  },
+  shopName: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#333',
+  },
+  shopLocation: {
+    fontSize: 14,
+    color: '#777',
+  },
+  noShopsText: {
+    fontSize: 14,
+    color: '#777',
+    textAlign: 'center',
+    marginTop: 5,
+  },
+  loadingContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'rgb(255, 254, 254)',
+  },
+  loadingText: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#555',
+    marginTop: 10,
+  },
+  errorContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  errorText: {
+    fontSize: 16,
+    color: 'red',
+  },
+});
+
+export default styles;

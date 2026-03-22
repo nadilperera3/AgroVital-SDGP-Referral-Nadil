@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "AgroVital",
+    "slug": "AgroVital",
+    "version": "1.0.0",
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.sdgp.AgroVital"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "489e1029-7fdf-4de0-8474-c20379d3fc26"
+      }
+    },
+    "web": {
+      "config": {
+        "firebase": {
+          "apiKey": "AIzaSyBQA6tmFMJqN0O-H9X9X1FE9jee3Hps_i4",
+          "authDomain": "agrovital-cs98-iit.firebaseapp.com",
+          "projectId": "agrovital-cs98-iit",
+          "storageBucket": "agrovital-cs98-iit.appspot.com",
+          "messagingSenderId": "372775852753",
+          "appId": "1:372775852753:web:8984d2a8c0479431e483f0",
+          "measurementId": "G-70YD9Y7EEW"
+        }
+      }
+    }
+  }
+}

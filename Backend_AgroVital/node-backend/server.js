@@ -18,7 +18,7 @@ app.use(bodyParser.json());
 
 const config = process.env.NODE_ENV === 'production' 
   ? require('./production.config') 
-  : { port: PORT, debug: true };
+  : { port: 5001, debug: true };
 
 app.use(cors({ origin: "*", methods: "GET,POST", allowedHeaders: "Content-Type, Authorization" }));
 

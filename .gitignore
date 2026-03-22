@@ -5,3 +5,5 @@ Backend_AgroVital/node-backend/config/firebaseConfig.js
 Backend_AgroVital/node-backend/firebase-adminsdk.json
 Backend_AgroVital/node-backend/.env
 Frontend_AgroVital/Components/firebaseConfig.js
+Backend_AgroVital/node-backend/firebase-adminsdk-old.json
+Backend_AgroVital/node-backend/firebase-adminsdk.json

@@ -1,11 +1,11 @@
 import React from 'react';
 import { View, Text, TouchableOpacity } from 'react-native';
-import Modal from 'react-native-modal';
+import { Modal } from 'react-native';
 import styles from '../Styles/CustomPopupStyles';
 
 const CustomPopup = ({ isVisible, title, message, onConfirm, onCancel }) => {
   return (
-    <Modal isVisible={isVisible} backdropOpacity={0.5}>
+    <Modal visible={isVisible} transparent={true} animationType="fade">
       <View style={styles.popupContainer}>
         <Text style={styles.popupTitle}>{title}</Text>
         <Text style={styles.popupMessage}>{message}</Text>

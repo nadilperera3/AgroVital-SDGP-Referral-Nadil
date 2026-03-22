@@ -53,7 +53,11 @@
     "react-native-screens": "~4.16.0",
     "react-native-stack": "^1.0.0-alpha11",
     "react-native-svg": "15.12.1",
+<<<<<<< HEAD
     "react-native-vector-icons": "^10.3.0",
+=======
+    "react-native-vector-icons": "^10.2.0",
+>>>>>>> bc75120283872f05d4cdfd426d5bf8627f29f28b
     "react-native-web": "^0.21.2"
   },
   "devDependencies": {
@@ -63,6 +67,10 @@
     "@babel/plugin-transform-private-property-in-object": "^7.28.6",
     "@expo/ngrok": "^4.1.0",
     "dotenv": "^16.4.7"
+<<<<<<< HEAD
+=======
+    
+>>>>>>> bc75120283872f05d4cdfd426d5bf8627f29f28b
   },
   "private": true,
   "keywords": [],
